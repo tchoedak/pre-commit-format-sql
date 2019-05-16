@@ -11,6 +11,6 @@ setup(
         'format-sql'
     ],
     entry_points={
-        'console_scripts': ['entry=format:main']
+        'console_scripts': ['format=format:main']
     }
 )
