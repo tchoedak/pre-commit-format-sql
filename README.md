@@ -15,7 +15,7 @@ Add this to your `.pre-commit-config.yaml`
 ```yaml
 repos:
 - repo: https://github.com/tchoedak/pre-commit-sql-format
-  rev: v0.0.1
+  rev: latest
   hooks:
     - id: format-sql
 ```
