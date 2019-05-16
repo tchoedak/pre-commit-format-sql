@@ -1,0 +1,5 @@
+-   id: formatsql
+    name: formatsql
+    language: python
+    entry: format
+    stages: [commit-msg]
