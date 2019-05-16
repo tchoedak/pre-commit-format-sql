@@ -1,5 +1,7 @@
--   id: formatsql
-    name: formatsql
+-   id: format-sql
+    name: format-sql
+    entry: format-sql
     language: python
-    entry: format
-    stages: [commit-msg]
+    'types': [python]
+    require_serial: true
+    additional_dependencies: []
